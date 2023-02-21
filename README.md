@@ -32,3 +32,4 @@ While this script entirly overwrites any bp file it modifies, it is still mergin
 ## Tested PRS
 * ![SACU Change](https://github.com/FAForever/fa/pull/4621)
 * ![Reclaim Change](https://github.com/FAForever/fa/pull/4705)
+* ![A fun sub PR](https://github.com/FAForever/fa/pull/4094)
