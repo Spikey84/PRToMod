@@ -1,7 +1,7 @@
 # PRToMod
 This script attempts to convert a pull request from the fa repo into a sim mod. The purpose of this is to allow potential contributers to test and show off their ideas while not requiring it to be remade in PR form if the idea is accpeted.
 
-## Installation
+## How To Use
 
 1. Install Python
 https://www.python.org/downloads/ or `sudo apt install python3`
