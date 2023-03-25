@@ -69,7 +69,12 @@ def GenerateMod():
                 fileContents = r.text
                 if ".bp" in fileName:
                     fileContents = fileContents.replace("UnitBlueprint {", "UnitBlueprint {\n    Merge = true,")
-                f.write(fileContents)
+
+                if ".scm" in fileName:
+                    fb = open(currentDir + "/" + d, "wb")
+                    fb.write(r.content)
+                else:
+                    f.write(fileContents)
             i = i + 1
 
     Path("./%s/mod_info.lua" % modName).touch()
